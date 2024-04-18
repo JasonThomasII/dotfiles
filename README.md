@@ -1,5 +1,8 @@
 # dotfiles
 
+> [!NOTE]
+> If you are looking for the GNU Stow-based setup, go [here](https://github.com/AndresRodH/config)
+
 All the things I use. This targets OSX only
 
 ## Requirements
