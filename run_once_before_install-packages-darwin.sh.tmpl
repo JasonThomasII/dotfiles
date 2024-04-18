@@ -1,0 +1,27 @@
+{{- if eq .chezmoi.os "darwin" -}}
+#!/bin/bash
+
+brew bundle --no-lock --file=/dev/stdin <<EOF
+tap "homebrew/cask-fonts"
+tap "jesseduffield/lazydocker"
+tap "jesseduffield/lazygit"
+
+brew "exa"
+brew "fnm"
+brew "go"
+brew "jesseduffield/lazydocker/lazydocker"
+brew "jesseduffield/lazygit/lazygit"
+brew "neovim"
+brew "node", link: false
+brew "ripgrep"
+brew "starship"
+brew "stow"
+brew "tmux"
+brew "tree"
+brew "yarn"
+
+cask "font-jetbrains-mono-nerd-font"
+cask "iterm2"
+cask "raycast"
+EOF
+{{ end -}}
