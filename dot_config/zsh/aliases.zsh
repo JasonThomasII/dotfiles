@@ -5,10 +5,10 @@ alias ld='lazydocker'
 alias lg='lazygit'
 
 # list files
-alias ls='exa --group-directories-first'
+alias ls='eza --group-directories-first'
 
 # detailed list view
-alias ll='exa --group-directories-first --long'
+alias ll='eza --group-directories-first --long'
 
 # the better vim
 alias vim='nvim'
