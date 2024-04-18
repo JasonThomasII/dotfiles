@@ -15,4 +15,4 @@ eval "$(starship init zsh)"
 eval "$(fnm env --use-on-cd)"
 
 # bun completions
-[ -s "/Users/arodriguez/.bun/_bun" ] && source "/Users/arodriguez/.bun/_bun"
+[ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
