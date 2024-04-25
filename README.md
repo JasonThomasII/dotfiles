@@ -3,7 +3,7 @@
 > [!NOTE]
 > If you are looking for the GNU Stow-based setup, go [here](https://github.com/AndresRodH/config)
 
-All the things I use. This targets OSX only
+All the things I use. This targets OSX only. Tested on Intel Macs only, some tweaks may need to be made for Apple Silicon Macs.
 
 ## Requirements
 
@@ -47,4 +47,20 @@ There's a lot of stuff in here. Actually, there's a lot of stuff that you may no
 5. [Git profile management](`dot_gitconfig`)
 
 6. [Starship](https://starship.rs/) prompt
+
+... and more!
+
+## FAQ
+
+### My tmux looks bad
+
+Make sure to install to install any tmux plugins by pressing `<C-a>I` while in a tmux session.
+
+### `bat` theme is not applied
+
+Cache may need to be rebuilt
+
+```sh
+bat cache --build
+```
 
