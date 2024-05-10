@@ -10,5 +10,8 @@ return {
 		opts = {
 			default_file_explorer = true,
 		},
+		keys = {
+			{ "n", "<leader>o", ":Oil<CR>" },
+		},
 	},
 }
