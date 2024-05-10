@@ -9,9 +9,7 @@ return {
 		dependencies = { "nvim-tree/nvim-web-devicons" },
 		keys = {
 			"<leader>e",
-			function()
-				require("oil").open()
-			end,
+			"<cmd>Oil<CR>",
 			desc = "Open file [E]xplorer",
 		},
 		opts = {
