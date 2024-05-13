@@ -14,8 +14,6 @@ return {
 			default_file_explorer = true,
 			keymaps = {
 				["q"] = "actions.close",
-				["<C-l>"] = false,
-				["<C-h>"] = false,
 			},
 		},
 	},
