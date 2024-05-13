@@ -12,6 +12,9 @@ return {
 		},
 		opts = {
 			default_file_explorer = true,
+			keymaps = {
+				["<Esc>"] = "actions.close",
+			},
 		},
 	},
 }
