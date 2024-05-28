@@ -20,7 +20,7 @@ All the things I use. This targets OSX only. Tested on Intel Macs only, some twe
 This setup uses [chezmoi](https://www.chezmoi.io/) to manage dotfiles. To bootstrap a new Mac:
 
 ```sh
-export GITHUB_USERNAME=AndresRodH # update this with your github username if you cloned/forked this repo
+export GITHUB_USERNAME=JasonThomasII # update this with your github username if you cloned/forked this repo
 sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply $GITHUB_USERNAME
 ```
 
